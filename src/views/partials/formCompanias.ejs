@@ -1,0 +1,33 @@
+<form id="formCompanias">
+  <div class="form-group">
+    <label for="nombreCompania">Selecciona la Aerolinea</label>
+    <select class="form-control" id="nombreCompania" name="nombreCompania">
+      <option disabled selected>Selecciona la aerolinea</option>
+      <option>Aerolineas Argentinas</option>
+      <option>Iberia</option>
+      <option>Ryan Air</option>
+      <option>American Airlines</option>
+      <option>Latam</option>
+      <option>Air Canada</option>
+      <option>Air New Zealand</option>
+    </select>
+  </div>
+  <div hidden class="form-group">
+    <label for="compania">Compania</label>
+    <input type="text" class="form-control" id="compania" name="compania" placeholder="Ingrese la Ciudad">
+  </div>
+  <div class="modal-footer">
+    <div id="botonCompania" class="primary-button">
+      <a id="x" data-toggle="modal" data-target="#modalCompanias">Buscar Compañia</a>
+    </div>
+    <div class="primary-button">
+      <a href="#services">Volver al Menu</a>
+    </div>
+  </div>
+</form>
+
+<script>
+  //if ($("#nombreCompania option:selected[value="0"])) {
+    //$("#botonCompania").hide();
+  //}
+</script>
